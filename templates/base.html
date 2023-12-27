@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EShop ANDEH</title>
+    <title> {% block title %}{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
-    <h1>Home pAGE</h1>
+    <nav class= "max-w-4xl mx-auto py-4 px-6 flex items-center justify-between bg-teal-600">
+        <div class="logo">
+            <a href="/" class="text-white">EShopANDEH</a>
+        </div>
+        <div class="menu">
+            <a href="/" class="text-white">about</a>
+        </div>
+    </nav>
+    <div class="mx-auto max-w-4xl px-6 py-4">
+        {% block content %}
+        {% endblock %}
+    </div>
     
 </body>
 </html>
