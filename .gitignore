@@ -7,7 +7,7 @@ __pycache__
 db.sqlite3
 media
 
-# Python #
+# Python 
 *.py[cod] 
 *$py.class 
 
