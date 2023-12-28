@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # My Apps
     'core',
     'userprofile',
+    'Shop',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
